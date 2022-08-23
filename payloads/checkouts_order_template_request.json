@@ -1,0 +1,45 @@
+{
+            "checkout": {
+                "orderDetails": {
+                    "categoryId": 16,
+                    "cityCode": "BCN",
+                    "handlingStrategy": {
+                        "type": "DELIVERY"
+                    },
+                    "origin": "CHECKOUT",
+                    "orderType": "STORES",
+                    "storeAddressId": 6832,
+                    "baseOrderUrn": null,
+                    "paymentMethodSupport": {
+                        "clientSupports": [
+                            "GooglePay"
+                        ],
+                        "clientReady": [
+                            "GooglePay"
+                        ]
+                    }
+                },
+                "components": {
+                    "productList": {
+                        "products": [
+                            {
+                                "id": 323409,
+                                "quantity": 1
+                            },
+                            {
+                                "id": 323403,
+                                "quantity": 1
+                            }
+                        ]
+                    },
+                    "deliveryAddress": {
+                        "placeId": "ChIJH_ccPTqjpBIRl1hm32rHysU",
+                        "label": "Ede ekene",
+                        "details": "2",
+                        "latitude": 41.3850639,
+                        "longitude": 2.1734035,
+                        "customFields": null
+                    }
+                }
+            }
+        }
