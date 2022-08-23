@@ -23,7 +23,6 @@ We have the import statement on top. Then we define the user class that will get
 
 from locust import FastHttpUser, task, constant
 
-
 class CitiesNearBy(FastHttpUser):
     host = "https://reqres.in"
     wait_time = constant(1)
@@ -38,7 +37,6 @@ Do not use zero think time. Make sure that think time in your test is based on r
 Below is a basic example of a post request where a simulated user will be making a post call every one second.
 
 from locust import FastHttpUser, constant, task
-
 
 class MyReqRes(FastHttpUser):
     host = "https://reqres.in"    
