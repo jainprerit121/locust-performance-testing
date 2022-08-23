@@ -2,15 +2,15 @@
 
 It’s crucial to have a common definition for the types of performance tests that should be executed against the applications using locust, such as:
 
-Single User Tests: Testing with one active user yields the best possible performance, and response times can be used for baseline measurements.
+*Single User Tests:* Testing with one active user yields the best possible performance, and response times can be used for baseline measurements.
 
-Load Tests: Understand the behavior of the system under average load, including the expected number of concurrent users performing a specific number of transactions within an average hour.
+*Load Tests:* Understand the behavior of the system under average load, including the expected number of concurrent users performing a specific number of transactions within an average hour.
 
-Peak Load Tests: Understand system behavior under the heaviest anticipated usage for the concurrent number of users and transaction rates.
+*Peak Load Tests:* Understand system behavior under the heaviest anticipated usage for the concurrent number of users and transaction rates.
 
-Endurance (Soak) Tests: Determine the longevity of components, and whether the system can sustain average to a peak load over a predefined duration. Also, monitor memory utilization to detect potential leaks.
+*Endurance (Soak) Tests:* Determine the longevity of components, and whether the system can sustain average to a peak load over a predefined duration. Also, monitor memory utilization to detect potential leaks.
 
-Stress Tests: Understand the upper limits of capacity within the system by purposely pushing it to its breaking point.
+*Stress Tests:* Understand the upper limits of capacity within the system by purposely pushing it to its breaking point.
 
 ## Installation
 Install the latest python if it's not already installed [python installation guide](https://docs.python-guide.org/starting/install3/osx/).
